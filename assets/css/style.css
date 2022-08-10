@@ -98,4 +98,30 @@ h6 {
     font-size: 16px;
 }
 
+.social-slider img {
+    width: 145px !important;
+}
+
+.brand-area-wrap {
+    padding: 20px 0;
+}
+
+.social-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+    filter: grayscale(1);
+    min-height: 5rem;
+    margin: 0 1.25rem;
+    opacity: .5;
+}
+
+.social-slider:hover {
+    filter: grayscale(0);
+    opacity: 1;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
 /* Hero area End */
