@@ -98,6 +98,9 @@ h6 {
     font-size: 16px;
 }
 
+/* Hero area End */
+
+/* social slider  */
 .social-slider img {
     width: 145px !important;
 }
@@ -124,4 +127,61 @@ h6 {
     cursor: grab;
 }
 
-/* Hero area End */
+/* social slider end  */
+
+/* about global network  */
+.about-global-network-wrap {
+    padding: 60px 0;
+}
+
+.bg-sliver {
+    background: var(--app-text-f9);
+    position: relative;
+}
+
+.global-right-content {
+    margin-right: 20px;
+}
+
+.global-right-content h1 {
+    font-family: 'Noticia Text',
+        serif;
+    color: var(--app-text-secondary);
+    z-index: 999;
+    position: relative;
+    padding: 60px 0;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+
+.global-left-content {
+    margin-left: 20px;
+}
+
+.global-left-content p {
+    color: var(--app-text-8);
+    z-index: 999;
+    position: relative;
+    font-size: 17px;
+    padding: 60px 0;
+}
+
+.row.bg-sliver::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background: var(--app-text-white);
+}
+
+.row.bg-sliver::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background: var(--app-text-white);
+    right: 0;
+}
+
+/* about global network end  */
