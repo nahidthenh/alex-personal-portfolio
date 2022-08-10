@@ -325,4 +325,43 @@ h6 {
     padding-bottom: 20px;
 }
 
+/* rightSide */
+.brunch-of-exprience-right {
+    margin-left: 50px;
+}
+
+.brunch-right-single-item h4 {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--app-text-5);
+}
+
+.brunch-right-single-item h2 {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: var(--app-secondary);
+    margin: 5px 0;
+}
+
+.date,
+.username {
+    color: var(--app-text-7);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.brunch-right-single-item {
+    margin-bottom: 30px;
+}
+
 /* brunch-of-exprience End */
