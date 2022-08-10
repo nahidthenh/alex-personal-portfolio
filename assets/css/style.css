@@ -1,3 +1,6 @@
+/* import color css  */
+@import url("color.css");
+
 /* Noticia , Roboto Font  */
 @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
@@ -32,3 +35,28 @@ h6 {
 }
 
 /* Basic css end  */
+
+
+/* Header css  */
+
+.nav-item.header-nav a {
+    color: var(--app-text-dark);
+    font-size: 14px;
+    margin-right: 14px;
+    text-transform: capitalize;
+}
+
+.border-bottom-1 {
+    border-bottom: 1px solid var(--app-text-f1);
+    padding: 20px;
+}
+
+/* Header css end  */
+
+/* Hero area  */
+
+.hero-area-wrap {
+    background-image: url('../images/header-bg.png');
+}
+
+/* Hero area End */
