@@ -282,6 +282,47 @@ h6 {
 }
 
 /* Providing Services End */
-.providing-service-wrap {
-    padding-bottom: 270px;
+
+
+/* brunch-of-exprience  */
+
+.brunch-of-exprience-wrap {
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
+
+.brunch-single-item {
+    padding: 30px;
+    background: var(--app-text-f9);
+}
+
+.brunch-single-item h2 {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: var(--app-primary);
+}
+
+.brunch-single-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--app-text-8);
+}
+
+.brunch-of-exprience-left p {
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--app-text-8);
+}
+
+.line {
+    color: var(--app-text-ash);
+    padding-bottom: 20px;
+}
+
+/* brunch-of-exprience End */
