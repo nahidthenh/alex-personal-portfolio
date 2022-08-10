@@ -40,7 +40,7 @@ h6 {
 /* Header css  */
 
 .nav-item.header-nav a {
-    color: var(--app-text-dark);
+    color: var(--app-text-secondary);
     font-size: 14px;
     margin-right: 14px;
     text-transform: capitalize;
@@ -48,7 +48,7 @@ h6 {
 
 .border-bottom-1 {
     border-bottom: 1px solid var(--app-text-f1);
-    padding: 20px;
+    padding: 15px;
 }
 
 /* Header css end  */
@@ -56,7 +56,46 @@ h6 {
 /* Hero area  */
 
 .hero-area-wrap {
-    background-image: url('../images/header-bg.png');
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    text-align: center;
+    /* background: gray; */
+    padding: 60px;
+}
+
+.hero-content h4 {
+    font-family: 'Noticia Text', serif;
+    color: var(--app-primary);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.hero-content h1 {
+    font-family: 'Noticia Text', serif;
+    color: var(--app-text-secondary);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.hero-content p {
+    color: var(--app-text-ash);
+    font-size: 18px;
+    padding: 20px 50px;
+}
+
+.hero-btn {
+    background: var(--app-primary);
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: var(--app-text-white) !important;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* Hero area End */

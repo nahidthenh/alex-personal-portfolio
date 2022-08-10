@@ -4,8 +4,9 @@
   --app-text-white: #fff;
   --app-text-black: #000;
   /* Template  */
-  --app-text-dark: #222222;
   --app-text-f1: #F1F1F1;
-
-
+  --app-primary: #FF5733;
+  --app-primary-hover: #FFCDC2;
+  --app-secondary: #222222;
+  --app-text-ash: #888888;
 }
