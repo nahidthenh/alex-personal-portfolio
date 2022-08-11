@@ -108,6 +108,17 @@
         padding-bottom: 20px;
     }
 
+    .row.padding-60 {
+        padding: 0 0px;
+        text-align: center;
+    }
+
+    .brunch-of-exprience-left img {
+        margin-bottom: 30px !important;
+        width: 70% !important;
+        text-align: center !important;
+    }
+
     /* Testimonial  */
     .querts img {
         width: 30px !important;
@@ -157,6 +168,10 @@
 
     .my-selected-project-area-wrap {
         padding-bottom: 10px;
+    }
+
+    .selected-items-wrap {
+        padding: 0 0px;
     }
 
     /* Contact Area */
@@ -234,6 +249,18 @@
         padding-top: 30px;
         padding-bottom: 10px;
     }
+
+    .row.padding-60 {
+        padding: 0 0px;
+        text-align: center;
+    }
+
+    .brunch-of-exprience-left img {
+        margin-bottom: 30px !important;
+        width: 70% !important;
+        text-align: center !important;
+    }
+
 
     .line {
         display: none;
