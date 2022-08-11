@@ -8,7 +8,7 @@ $('.brand-carousel').owlCarousel({
             items: 2
         },
         600: {
-            items: 3
+            items: 4
         },
         1000: {
             items: 5
@@ -25,7 +25,8 @@ $('.testimonial-slider').owlCarousel({
             nav: false
         },
         600: {
-            items: 1
+            items: 1,
+            nav: false
         },
         1000: {
             items: 1
