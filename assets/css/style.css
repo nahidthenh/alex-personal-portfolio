@@ -126,12 +126,12 @@ h6 {
     opacity: .5;
 }
 
-.social-slider:hover {
+/* .social-slider:hover {
     filter: grayscale(0);
     opacity: 1;
     cursor: -webkit-grab;
     cursor: grab;
-}
+} */
 
 /* social slider end  */
 
@@ -496,13 +496,13 @@ h6 {
     font-size: 24px;
     line-height: 34px;
     color: var(--app-text-white);
-    transition: .3s;
+    /* transition: .3s; */
 }
 
-.overlay-content h1:hover {
+/* .overlay-content h1:hover {
     color: var(--app-primary);
     transition: .3s;
-}
+} */
 
 .overlay-content p {
     font-weight: 400;
@@ -591,13 +591,13 @@ h6 {
     font-size: 14px;
     line-height: 14px;
     color: var(--app-secondary);
-    transition: .3s;
+    /* transition: .3s; */
 }
 
-.social-link ul li a:hover {
+/* .social-link ul li a:hover {
     transition: .3s;
     color: var(--app-primary);
-}
+} */
 
 /* Contact us End */
 

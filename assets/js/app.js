@@ -39,7 +39,6 @@ $('.testimonial-slider').owlCarousel({
 // Slider Next Prev Image
 
 $(document).ready(function () {
-
-    $(".owl-prev").html('<i class="ri-arrow-left-line"></i>');
-    $(".owl-next").html('<i class="ri-arrow-right-line"></i>');
+    $(".owl-prev").html('<img src="assets/images/arrow-left.png">');
+    $(".owl-next").html('<img src="assets/images/arrow-right.png">');
 }); 
