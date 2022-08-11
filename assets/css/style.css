@@ -288,7 +288,7 @@ h6 {
 
 .brunch-of-exprience-wrap {
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 60px;
 }
 
 .brunch-single-item {
@@ -367,6 +367,9 @@ h6 {
 /* brunch-of-exprience End */
 
 /* Testimonial css  */
+.testimonial-area-wrap {
+    padding-bottom: 60px;
+}
 
 .testimonial-slider-wrap {
     background: var(--app-text-f9);
@@ -447,6 +450,174 @@ h6 {
 }
 
 /* Testimonial css End */
-.testimonial-area-wrap {
-    padding-bottom: 150px;
+
+/* My Selected Project  */
+.my-selected-project-area-wrap {
+    padding-bottom: 60px;
 }
+
+.selected-single-items img {
+    width: 100%;
+}
+
+.selected-single-items {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.overlay-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    padding: 40px 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%);
+    transform: rotate(180deg);
+}
+
+.overlay-content h1 {
+    transform: rotate(180deg);
+}
+
+.overlay-content p {
+    transform: rotate(180deg);
+}
+
+.overlay-content h1 {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--app-text-white);
+}
+
+.overlay-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--app-text-white);
+    margin-bottom: 10px;
+}
+
+/* My Selected Project End */
+
+
+/* Contact us  */
+
+.contact-area-wrap {
+    padding-bottom: 60px;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-title {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: var(--app-primary);
+    margin-bottom: 30px;
+}
+
+.location {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--app-text-8);
+}
+
+.contact-box h1 {
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: lowercase;
+    color: var(--app-secondary);
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--app-text-8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.social-link ul li {
+    list-style: none;
+    float: right;
+    margin: 0 10px;
+}
+
+.social-link ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--app-secondary);
+    transition: .3s;
+}
+
+.social-link ul li a:hover {
+    transition: .3s;
+    color: var(--app-primary);
+}
+
+/* Contact us End */
+
+/* Footer / Copyright area  */
+
+.copyright-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--app-text-8);
+}
+
+.copyright-text p a {
+    color: var(--app-text-8);
+    transition: .3s;
+}
+
+.copyright-text p a:hover {
+    color: var(--app-primary);
+    transition: .3s;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area-wrap {
+    padding: 30px 0;
+}
+
+/* Footer / Copyright area End */
