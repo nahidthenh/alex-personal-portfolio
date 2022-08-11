@@ -1,4 +1,4 @@
-
+// Brand Slider 
 $('.brand-carousel').owlCarousel({
     loop: true,
     nav: false,
@@ -15,6 +15,7 @@ $('.brand-carousel').owlCarousel({
         }
     }
 })
+// Testimonial Slider 
 $('.testimonial-slider').owlCarousel({
     loop: true,
     nav: true,
@@ -32,4 +33,13 @@ $('.testimonial-slider').owlCarousel({
             items: 1
         }
     }
+
 })
+
+// Slider Next Prev Image
+
+$(document).ready(function () {
+
+    $(".owl-prev").html('<i class="ri-arrow-left-line"></i>');
+    $(".owl-next").html('<i class="ri-arrow-right-line"></i>');
+}); 

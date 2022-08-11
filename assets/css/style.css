@@ -51,6 +51,12 @@ h6 {
     padding: 15px;
 }
 
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 var(--app-primary) !important;
+}
+
 /* Header css end  */
 
 /* Hero area  */
@@ -258,7 +264,7 @@ h6 {
 }
 
 
-.container.ps {
+.container.providing-service-relative {
     position: relative;
 }
 
@@ -361,7 +367,7 @@ h6 {
 }
 
 .brunch-right-single-item {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 /* brunch-of-exprience End */
@@ -445,7 +451,7 @@ h6 {
     height: 50px;
     border-radius: 50% !important;
     margin-right: 10px !important;
-    color: var(--app-text-black) !important;
+    color: var(--app-text-aaa) !important;
     font-size: 20px !important;
 }
 
