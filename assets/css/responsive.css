@@ -1,0 +1,169 @@
+@media (min-width: 375px) and (max-width: 420px) {
+
+    /* Hero area  */
+    .hero-content h1 {
+        font-size: 33px;
+    }
+
+    .hero-content p {
+        padding: 20px 0px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-content h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-title img {
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    /* global Network  */
+    .about-global-network-wrap {
+        padding: 0px 0;
+    }
+
+    .global-right-content h1 {
+        padding: 30px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .global-left-content p {
+        padding: 0px 0;
+        padding-bottom: 30px;
+    }
+
+    /* Providing Services area  */
+    .providing-service-box {
+        padding: 10px 5px;
+        margin-bottom: 10px;
+    }
+
+    .row.ps-box::after {
+        display: none;
+    }
+
+    .brunch-of-exprience-wrap {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .brunch-single-item h2 {
+        font-size: 28px;
+
+    }
+
+    .brunch-of-exprience-left-box {
+        display: block !important;
+    }
+
+    .brunch-single-item {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        padding: 20px;
+    }
+
+    .brunch-of-exprience-left p {
+        padding: 0;
+    }
+
+    .brunch-of-exprience-right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .brunch-right-single-item h4 {
+        font-size: 18px;
+    }
+
+    .brunch-right-single-item h2 {
+        font-size: 25px;
+        margin: 0px 0;
+    }
+
+    .d-flex.align-items-center.justify-content-between {
+        display: block !important;
+    }
+
+    .brunch-right-line {
+        display: none;
+    }
+
+    .brunch-right-single-item {
+        margin-bottom: 20px;
+        text-align: center;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 20px;
+    }
+
+    /* Testimonial  */
+    .querts img {
+        width: 30px !important;
+        height: 160px !important;
+    }
+
+    .testimonial-text-block p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+    .testimonial-user {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-user img {
+        width: 40px !important;
+        height: 40px;
+    }
+
+    .testimonial-user h4 {
+        font-size: 15px;
+    }
+
+    .testimonial-user p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .testimonial-static-image img {
+        display: none !important;
+    }
+
+    .testimonial-slider-wrap {
+        background: var(--app-text-f9);
+        padding: 10px 40px;
+    }
+
+    .testimonial-area-wrap {
+        padding-bottom: 30px;
+    }
+
+    .contact-title {
+        margin-bottom: 20px;
+    }
+
+    .my-selected-project-area-wrap {
+        padding-bottom: 10px;
+    }
+
+    /* Contact Area */
+    .contact-box h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .contact-area-wrap {
+        padding-bottom: 30px;
+    }
+}

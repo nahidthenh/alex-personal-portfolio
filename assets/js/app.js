@@ -1,10 +1,11 @@
 
 $('.brand-carousel').owlCarousel({
     loop: true,
-    nav: true,
+    nav: false,
+    dots: false,
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
             items: 3
@@ -20,7 +21,8 @@ $('.testimonial-slider').owlCarousel({
     dots: false,
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            nav: false
         },
         600: {
             items: 1
