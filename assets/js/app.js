@@ -3,6 +3,9 @@ $('.brand-carousel').owlCarousel({
     loop: true,
     nav: false,
     dots: false,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 2
