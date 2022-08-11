@@ -365,3 +365,88 @@ h6 {
 }
 
 /* brunch-of-exprience End */
+
+/* Testimonial css  */
+
+.testimonial-slider-wrap {
+    background: var(--app-text-f9);
+    padding: 40px;
+}
+
+.querts img {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+}
+
+.owl-nav {
+    display: flex;
+}
+
+.testimonial-text-block p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--app-text-8);
+    margin-bottom: 20px;
+}
+
+.testimonial-user img {
+    width: 70px !important;
+    height: 70px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.testimonial-user h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--app-secondary);
+}
+
+.testimonial-user p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--app-text-7);
+    margin-top: 6px;
+}
+
+.testimonial-slider {
+    position: relative;
+}
+
+.querts {
+    margin-right: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 90%;
+    left: 7%;
+}
+
+.owl-next,
+.owl-prev {
+    background: var(--app-ef) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    margin-right: 10px !important;
+    color: var(--app-text-black) !important;
+    font-size: 20px !important;
+}
+
+/* Testimonial css End */
+.testimonial-area-wrap {
+    padding-bottom: 150px;
+}
